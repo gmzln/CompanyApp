@@ -1,1 +1,1 @@
-This Project is was my first attempt to build a whole website of 6 Pages in pure HTML/CSS and JavaScript Code. It is a calculation app for companies. The Design is not mine.
+This Project was my first attempt to build a whole website of 6 Pages in pure HTML/CSS and JavaScript Code. It is a calculation App for companies to have an overview about their projects, customers and employees. I coded two attempts to build a PoP-Up Window in Vanilla Java Script. The Design of the App is not mine.
