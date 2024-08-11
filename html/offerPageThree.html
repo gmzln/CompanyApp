@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create new offer Page 3</title>
+    <link rel="stylesheet" href="/css/calculator.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="login-text">
+          <strong>Tatiana Pinzón</strong>
+          <span>TatiFinch Inc.</span>
+        </div>
+        <svg
+          class="person"
+          width="46"
+          height="46"
+          viewBox="0 0 46 46"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g id="Person" clip-path="url(#clip0_11_410)">
+            <path
+              id="Vector"
+              d="M23 11.5013C25.1083 11.5013 26.8333 13.2263 26.8333 15.3346C26.8333 17.443 25.1083 19.168 23 19.168C20.8917 19.168 19.1667 17.443 19.1667 15.3346C19.1667 13.2263 20.8917 11.5013 23 11.5013ZM23 30.668C28.175 30.668 34.1167 33.1405 34.5 34.5013H11.5C11.9408 33.1213 17.8442 30.668 23 30.668ZM23 7.66797C18.7642 7.66797 15.3333 11.0988 15.3333 15.3346C15.3333 19.5705 18.7642 23.0013 23 23.0013C27.2358 23.0013 30.6667 19.5705 30.6667 15.3346C30.6667 11.0988 27.2358 7.66797 23 7.66797ZM23 26.8346C17.8825 26.8346 7.66667 29.403 7.66667 34.5013V38.3346H38.3333V34.5013C38.3333 29.403 28.1175 26.8346 23 26.8346Z"
+              fill="#08073F"
+            />
+          </g>
+          <defs>
+            <clipPath id="clip0_11_410">
+              <rect width="46" height="46" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+      </header>
+      <aside class="sidebar">
+        <div class="sidebar-logo">
+          <img src="/assets/logoTatiDesign.png" alt="logo" />
+          <strong>Fortuna</strong>
+        </div>
+        <div class="sidebar-text">
+          <ul>
+            <div class="sidebar-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="21"
+                viewBox="0 0 20 21"
+                fill="none"
+                class="icons"
+              >
+                <g clip-path="url(#clip0_15_560)">
+                  <path
+                    d="M7.49999 18.0013C7.49999 18.4596 7.87499 18.8346 8.33332 18.8346H11.6667C12.125 18.8346 12.5 18.4596 12.5 18.0013V17.168H7.49999V18.0013ZM9.99999 2.16797C6.78332 2.16797 4.16666 4.78464 4.16666 8.0013C4.16666 9.98464 5.15832 11.7263 6.66666 12.7846V14.668C6.66666 15.1263 7.04166 15.5013 7.49999 15.5013H12.5C12.9583 15.5013 13.3333 15.1263 13.3333 14.668V12.7846C14.8417 11.7263 15.8333 9.98464 15.8333 8.0013C15.8333 4.78464 13.2167 2.16797 9.99999 2.16797ZM12.375 11.418L11.6667 11.918V13.8346H8.33332V11.918L7.62499 11.418C6.49999 10.6346 5.83332 9.35964 5.83332 8.0013C5.83332 5.7013 7.69999 3.83464 9.99999 3.83464C12.3 3.83464 14.1667 5.7013 14.1667 8.0013C14.1667 9.35964 13.5 10.6346 12.375 11.418Z"
+                    fill="#448AFF"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_15_560">
+                    <rect
+                      width="20"
+                      height="20"
+                      fill="white"
+                      transform="translate(0 0.5)"
+                    />
+                  </clipPath>
+                </defs>
+              </svg>
+              <a href="#">Project Information</a>
+            </div>
+            <div class="sidebar-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="21"
+                viewBox="0 0 20 21"
+                fill="none"
+                class="icons"
+              >
+                <g clip-path="url(#clip0_12_426)">
+                  <path
+                    d="M3.33333 11.3333C4.25 11.3333 5 10.5833 5 9.66667C5 8.75 4.25 8 3.33333 8C2.41667 8 1.66667 8.75 1.66667 9.66667C1.66667 10.5833 2.41667 11.3333 3.33333 11.3333ZM4.275 12.25C3.96667 12.2 3.65833 12.1667 3.33333 12.1667C2.50833 12.1667 1.725 12.3417 1.01667 12.65C0.4 12.9167 0 13.5167 0 14.1917V15.5H3.75V14.1583C3.75 13.4667 3.94167 12.8167 4.275 12.25ZM16.6667 11.3333C17.5833 11.3333 18.3333 10.5833 18.3333 9.66667C18.3333 8.75 17.5833 8 16.6667 8C15.75 8 15 8.75 15 9.66667C15 10.5833 15.75 11.3333 16.6667 11.3333ZM20 14.1917C20 13.5167 19.6 12.9167 18.9833 12.65C18.275 12.3417 17.4917 12.1667 16.6667 12.1667C16.3417 12.1667 16.0333 12.2 15.725 12.25C16.0583 12.8167 16.25 13.4667 16.25 14.1583V15.5H20V14.1917ZM13.5333 11.875C12.5583 11.4417 11.3583 11.125 10 11.125C8.64167 11.125 7.44167 11.45 6.46667 11.875C5.56667 12.275 5 13.175 5 14.1583V15.5H15V14.1583C15 13.175 14.4333 12.275 13.5333 11.875ZM6.725 13.8333C6.8 13.6417 6.83333 13.5083 7.48333 13.2583C8.29167 12.9417 9.14167 12.7917 10 12.7917C10.8583 12.7917 11.7083 12.9417 12.5167 13.2583C13.1583 13.5083 13.1917 13.6417 13.275 13.8333H6.725ZM10 7.16667C10.4583 7.16667 10.8333 7.54167 10.8333 8C10.8333 8.45833 10.4583 8.83333 10 8.83333C9.54167 8.83333 9.16667 8.45833 9.16667 8C9.16667 7.54167 9.54167 7.16667 10 7.16667ZM10 5.5C8.61667 5.5 7.5 6.61667 7.5 8C7.5 9.38333 8.61667 10.5 10 10.5C11.3833 10.5 12.5 9.38333 12.5 8C12.5 6.61667 11.3833 5.5 10 5.5Z"
+                    fill="#448AFF"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_12_426">
+                    <rect
+                      width="20"
+                      height="20"
+                      fill="white"
+                      transform="translate(0 0.5)"
+                    />
+                  </clipPath>
+                </defs>
+              </svg>
+              <a href="#">Team</a>
+            </div>
+            <div class="sidebar-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="21"
+                viewBox="0 0 20 21"
+                fill="none"
+                class="icons"
+              >
+                <g clip-path="url(#clip0_15_549)">
+                  <path
+                    d="M9.83333 9.58333C7.94166 9.09167 7.33333 8.58333 7.33333 7.79167C7.33333 6.88333 8.175 6.25 9.58333 6.25C11.0667 6.25 11.6167 6.95833 11.6667 8H13.5083C13.45 6.56667 12.575 5.25 10.8333 4.825V3H8.33333V4.8C6.71666 5.15 5.41666 6.2 5.41666 7.80833C5.41666 9.73333 7.00833 10.6917 9.33333 11.25C11.4167 11.75 11.8333 12.4833 11.8333 13.2583C11.8333 13.8333 11.425 14.75 9.58333 14.75C7.86666 14.75 7.19166 13.9833 7.1 13H5.26666C5.36666 14.825 6.73333 15.85 8.33333 16.1917V18H10.8333V16.2083C12.4583 15.9 13.75 14.9583 13.75 13.25C13.75 10.8833 11.725 10.075 9.83333 9.58333Z"
+                    fill="#448AFF"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_15_549">
+                    <rect
+                      width="20"
+                      height="20"
+                      fill="white"
+                      transform="translate(0 0.5)"
+                    />
+                  </clipPath>
+                </defs>
+              </svg>
+              <a href="#">Cost Calculation</a>
+            </div>
+            <div class="sidebar-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="21"
+                viewBox="0 0 20 21"
+                fill="none"
+                class="icons"
+              >
+                <g clip-path="url(#clip0_15_552)">
+                  <path
+                    d="M15.8333 7.16667H15V3H4.99999V7.16667H4.16666C2.78332 7.16667 1.66666 8.28333 1.66666 9.66667V14.6667H4.99999V18H15V14.6667H18.3333V9.66667C18.3333 8.28333 17.2167 7.16667 15.8333 7.16667ZM6.66666 4.66667H13.3333V7.16667H6.66666V4.66667ZM13.3333 14.6667V16.3333H6.66666V13H13.3333V14.6667ZM15 13V11.3333H4.99999V13H3.33332V9.66667C3.33332 9.20833 3.70832 8.83333 4.16666 8.83333H15.8333C16.2917 8.83333 16.6667 9.20833 16.6667 9.66667V13H15Z"
+                    fill="#448AFF"
+                  />
+                  <path
+                    d="M15 10.9167C15.4602 10.9167 15.8333 10.5436 15.8333 10.0833C15.8333 9.6231 15.4602 9.25 15 9.25C14.5398 9.25 14.1667 9.6231 14.1667 10.0833C14.1667 10.5436 14.5398 10.9167 15 10.9167Z"
+                    fill=""
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_15_552">
+                    <rect
+                      width="20"
+                      height="20"
+                      fill="white"
+                      transform="translate(0 0.5)"
+                    />
+                  </clipPath>
+                </defs>
+              </svg>
+              <a href="#">Print and Send</a>
+            </div>
+            <div class="sidebar-buttons">
+              <button class="save-button">
+                <a href="#">Save</a>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_86_406)">
+                    <path
+                      d="M14.1667 2.5H4.16667C3.24167 2.5 2.5 3.25 2.5 4.16667V15.8333C2.5 16.75 3.24167 17.5 4.16667 17.5H15.8333C16.75 17.5 17.5 16.75 17.5 15.8333V5.83333L14.1667 2.5ZM15.8333 15.8333H4.16667V4.16667H13.475L15.8333 6.525V15.8333ZM10 10C8.61667 10 7.5 11.1167 7.5 12.5C7.5 13.8833 8.61667 15 10 15C11.3833 15 12.5 13.8833 12.5 12.5C12.5 11.1167 11.3833 10 10 10ZM5 5H12.5V8.33333H5V5Z"
+                      fill="black"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_86_406">
+                      <rect width="20" height="20" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </button>
+              <button class="exit-button">
+                <a href="#">Exit</a>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_86_409)">
+                    <path
+                      d="M8.40833 12.9917L9.58333 14.1667L13.75 10L9.58333 5.83333L8.40833 7.00833L10.5583 9.16667H2.5V10.8333H10.5583L8.40833 12.9917ZM15.8333 2.5H4.16667C3.24167 2.5 2.5 3.25 2.5 4.16667V7.5H4.16667V4.16667H15.8333V15.8333H4.16667V12.5H2.5V15.8333C2.5 16.75 3.24167 17.5 4.16667 17.5H15.8333C16.75 17.5 17.5 16.75 17.5 15.8333V4.16667C17.5 3.25 16.75 2.5 15.8333 2.5Z"
+                      fill="black"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_86_409">
+                      <rect width="20" height="20" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </button>
+            </div>
+          </ul>
+        </div>
+      </aside>
+      <main>
+        <div class="main-pages">
+          <div class="circle">
+            <a href="/html/offer.html">1</a>
+          </div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="164"
+            height="2"
+            viewBox="0 0 164 2"
+            fill="none"
+          >
+            <path d="M0 1H164" stroke="#08073F" stroke-width="2" />
+          </svg>
+          <div class="circle">
+            <a href="/html/offerPageTwo.html">2</a>
+          </div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="164"
+            height="2"
+            viewBox="0 0 164 2"
+            fill="none"
+          >
+            <path d="M0 1H164" stroke="#08073F" stroke-width="2" />
+          </svg>
+          <div class="circle">
+            <a href="/html/offerPageThree.html">3</a>
+          </div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="164"
+            height="2"
+            viewBox="0 0 164 2"
+            fill="none"
+          >
+            <path d="M0 1H164" stroke="#08073F" stroke-width="2" />
+          </svg>
+          <div class="circle">
+            <a href="/html/offerPagefour.html">4</a>
+          </div>
+        </div>
+        <div class="formular">
+          <h2>Team Information</h2>
+          <div class="add-employee">
+            <div class="checkbox">
+              <span>Import fixed costs from Main Profile</span>
+              <div class="rectangle"></div>
+            </div>
+            <button class="add-button">
+              <p>Add New</p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="25"
+                viewBox="0 0 24 25"
+                fill="none"
+              >
+                <g clip-path="url(#clip0_20_813)">
+                  <path
+                    d="M13 8.5C13 6.29 11.21 4.5 9 4.5C6.79 4.5 5 6.29 5 8.5C5 10.71 6.79 12.5 9 12.5C11.21 12.5 13 10.71 13 8.5ZM11 8.5C11 9.6 10.1 10.5 9 10.5C7.9 10.5 7 9.6 7 8.5C7 7.4 7.9 6.5 9 6.5C10.1 6.5 11 7.4 11 8.5ZM1 18.5V20.5H17V18.5C17 15.84 11.67 14.5 9 14.5C6.33 14.5 1 15.84 1 18.5ZM3 18.5C3.2 17.79 6.3 16.5 9 16.5C11.69 16.5 14.78 17.78 15 18.5H3ZM20 15.5V12.5H23V10.5H20V7.5H18V10.5H15V12.5H18V15.5H20Z"
+                    fill="black"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_20_813">
+                    <rect
+                      width="24"
+                      height="24"
+                      fill="white"
+                      transform="translate(0 0.5)"
+                    />
+                  </clipPath>
+                </defs>
+              </svg>
+            </button>
+          </div>
+          <div class="add-employee">
+            <div class="checkbox">
+              <span>Add 19% Umsatzsteuer</span>
+              <div class="rectangle"></div>
+            </div>
+          </div>
+          <hr />
+          <div class="calculator-container">
+            <h4>Name</h4>
+            <h4>Department</h4>
+            <h4>Time</h4>
+            <h4>Total</h4>
+            <div class="Input">
+              <select name="clients" id="dropdown-Input">
+                <option value="1">Name</option>
+                <option value="2">Tatiana Pinzon</option>
+                <option value="3">Gamze Ya</option>
+              </select>
+            </div>
+            <div class="Input">
+              <select name="clients" id="dropdown-Input">
+                <option value="1">Department</option>
+                <option value="2">Frontend Developer</option>
+                <option value="3">Backend Developer</option>
+              </select>
+            </div>
+            <div class="Input">
+              <select name="clients" id="dropdown-Input">
+                <option value="1">Time</option>
+                <option value="2">120 h</option>
+                <option value="3">60h</option>
+              </select>
+            </div>
+            <div class="Input">
+              <select name="clients" id="dropdown-Input">
+                <option value="1">Euro</option>
+                <option value="2">1000</option>
+                <option value="3">2000</option>
+              </select>
+            </div>
+            <div class="Input">
+              <select name="clients" id="dropdown-Input">
+                <option value="1">Name</option>
+                <option value="2">Tatiana Pinzon</option>
+                <option value="3">Gamze Ya</option>
+              </select>
+            </div>
+            <div class="Input">
+              <select name="clients" id="dropdown-Input">
+                <option value="1">Department</option>
+                <option value="2">Frontend Developer</option>
+                <option value="3">Backend Developer</option>
+              </select>
+            </div>
+            <div class="Input">
+              <select name="clients" id="dropdown-Input">
+                <option value="1">Time</option>
+                <option value="2">120 h</option>
+                <option value="3">60h</option>
+              </select>
+            </div>
+            <div class="Input">
+              <select name="clients" id="dropdown-Input">
+                <option value="1">Euro</option>
+                <option value="2">1000</option>
+                <option value="3">2000</option>
+              </select>
+            </div>
+            <div class="Input">
+              <select name="clients" id="dropdown-Input">
+                <option value="1">Name</option>
+                <option value="2">Tatiana Pinzon</option>
+                <option value="3">Gamze Ya</option>
+              </select>
+            </div>
+            <div class="Input">
+              <select name="clients" id="dropdown-Input">
+                <option value="1">Department</option>
+                <option value="2">Frontend Developer</option>
+                <option value="3">Backend Developer</option>
+              </select>
+            </div>
+            <div class="Input">
+              <select name="clients" id="dropdown-Input">
+                <option value="1">Time</option>
+                <option value="2">120h</option>
+                <option value="3">60h</option>
+              </select>
+            </div>
+            <div class="Input">
+              <select name="clients" id="dropdown-Input">
+                <option value="1">Euro</option>
+                <option value="2">1000</option>
+                <option value="3">2000</option>
+              </select>
+            </div>
+            <div class="total">
+              <span>4000 Euro</span>
+            </div>
+            <div class="ust">
+              <strong>Umst.19%</strong>
+            </div>
+            <div class="ust-summe">
+              <span>200 Euro</span>
+            </div>
+            <div class="total-text">
+              <span>Total</span>
+            </div>
+            <div class="total-summe">
+              <span>4200 Euro</span>
+            </div>
+        </div>
+        <button class="next-button">
+          <a href="/html/offerPagefour.html">Next</a>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 20 20"
+            fill="none"
+          >
+            <g clip-path="url(#clip0_88_400)">
+              <path
+                d="M10 3.33203L8.82504 4.50703L13.475 9.16536H3.33337V10.832H13.475L8.82504 15.4904L10 16.6654L16.6667 9.9987L10 3.33203Z"
+                fill="black"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_88_400">
+                <rect width="20" height="20" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+        </button>
+      </main>
+      <footer>
+        <div class="sally"></div>
+        <div class="contact-container">
+          <div class="contact">
+            <strong>Fortuna 2023</strong>
+            <div class="contact-information">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+              >
+                <g clip-path="url(#clip0_109_444)">
+                  <path
+                    d="M16.6667 12.9167C15.625 12.9167 14.625 12.75 13.6917 12.4417C13.6083 12.4167 13.5167 12.4 13.4333 12.4C13.2167 12.4 13.0083 12.4833 12.8417 12.6417L11.0083 14.475C8.65 13.275 6.71667 11.35 5.51667 8.99167L7.35 7.15C7.58333 6.925 7.65 6.6 7.55833 6.30833C7.25 5.375 7.08333 4.375 7.08333 3.33333C7.08333 2.875 6.70833 2.5 6.25 2.5H3.33333C2.875 2.5 2.5 2.875 2.5 3.33333C2.5 11.1583 8.84167 17.5 16.6667 17.5C17.125 17.5 17.5 17.125 17.5 16.6667V13.75C17.5 13.2917 17.125 12.9167 16.6667 12.9167ZM4.19167 4.16667H5.44167C5.5 4.9 5.625 5.625 5.825 6.325L4.825 7.33333C4.48333 6.325 4.26667 5.26667 4.19167 4.16667ZM15.8333 15.8083C14.7333 15.7333 13.6667 15.5167 12.6667 15.175L13.6667 14.175C14.375 14.375 15.1 14.5 15.8333 14.55V15.8083ZM10 2.5V10.8333L12.5 8.33333H17.5V2.5H10ZM15.8333 6.66667H11.6667V4.16667H15.8333V6.66667Z"
+                    fill="#08073F"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_109_444">
+                    <rect width="20" height="20" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <a href="tel:015-9853-22">015 9853 22</a>
+            </div>
+            <div class="contact-information">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="14"
+                viewBox="0 0 18 14"
+                fill="none"
+              >
+                <path
+                  d="M17.3334 1.9987C17.3334 1.08203 16.5834 0.332031 15.6667 0.332031H2.33335C1.41669 0.332031 0.666687 1.08203 0.666687 1.9987V11.9987C0.666687 12.9154 1.41669 13.6654 2.33335 13.6654H15.6667C16.5834 13.6654 17.3334 12.9154 17.3334 11.9987V1.9987ZM15.6667 1.9987L9.00002 6.16536L2.33335 1.9987H15.6667ZM15.6667 11.9987H2.33335V3.66536L9.00002 7.83203L15.6667 3.66536V11.9987Z"
+                  fill="#08073F"
+                />
+              </svg>
+              <a href="mailto:fortuna@mail.com">fortuna@mail.com</a>
+            </div>
+          </div>
+          <div class="links">
+            <div class="contact-information">
+              <a href="#">Impressum</a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="29"
+                height="29"
+                viewBox="0 0 29 29"
+                fill="none"
+              >
+                <path
+                  d="M9.42804 9.42818L9.42805 11.0899L16.01 11.0958L8.83879 18.267L10.0173 19.4455L17.1885 12.2743L17.1826 18.8563H18.8561V9.42818H9.42804Z"
+                  fill="#08073F"
+                />
+              </svg>
+            </div>
+            <div class="contact-information">
+              <a href="#">Datenschutz</a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="29"
+                height="29"
+                viewBox="0 0 29 29"
+                fill="none"
+              >
+                <path
+                  d="M9.42804 9.42818L9.42805 11.0899L16.01 11.0958L8.83879 18.267L10.0173 19.4455L17.1885 12.2743L17.1826 18.8563H18.8561V9.42818H9.42804Z"
+                  fill="#08073F"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="contact-links">
+          <select name="contact" id="dropdown-two">
+            <option value="1">Contact</option>
+            <option value="2">
+              <a class="contact-link-one" href="#">Phone</a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="29"
+                height="29"
+                viewBox="0 0 29 29"
+                fill="none"
+              >
+                <path
+                  d="M9.42804 9.42818L9.42805 11.0899L16.01 11.0958L8.83879 18.267L10.0173 19.4455L17.1885 12.2743L17.1826 18.8563H18.8561V9.42818H9.42804Z"
+                  fill="#08073F"
+                />
+              </svg>
+            </option>
+            <option value="3">
+              <a class="contact-link-one" href="#">E-Mail</a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="29"
+                height="29"
+                viewBox="0 0 29 29"
+                fill="none"
+              >
+                <path
+                  d="M9.42804 9.42818L9.42805 11.0899L16.01 11.0958L8.83879 18.267L10.0173 19.4455L17.1885 12.2743L17.1826 18.8563H18.8561V9.42818H9.42804Z"
+                  fill="#08073F"
+                />
+              </svg>
+            </option>
+          </select>
+          <select name="contact" id="dropdown-two">
+            <option value="1">Info</option>
+            <option value="2">
+              <a class="contact-link-one" href="#">Impressum</a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="29"
+                height="29"
+                viewBox="0 0 29 29"
+                fill="none"
+              >
+                <path
+                  d="M9.42804 9.42818L9.42805 11.0899L16.01 11.0958L8.83879 18.267L10.0173 19.4455L17.1885 12.2743L17.1826 18.8563H18.8561V9.42818H9.42804Z"
+                  fill="#08073F"
+                />
+              </svg>
+            </option>
+            <option value="3">
+              <a class="contact-link-one" href="#">Datenschutz</a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="29"
+                height="29"
+                viewBox="0 0 29 29"
+                fill="none"
+              >
+                <path
+                  d="M9.42804 9.42818L9.42805 11.0899L16.01 11.0958L8.83879 18.267L10.0173 19.4455L17.1885 12.2743L17.1826 18.8563H18.8561V9.42818H9.42804Z"
+                  fill="#08073F"
+                />
+              </svg>
+            </option>
+          </select>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
